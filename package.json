@@ -1,10 +1,10 @@
 {
-  "name": "ecommerce-1",
+  "name": "ecommerce-2",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "node backend/server.js",
+    "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
@@ -16,12 +16,10 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mongoose": "^6.0.12",
-    "react-router": "^6.0.2",
-    "react-router-dom": "^6.0.2"
+    "mongoose": "^6.0.13"
   },
   "devDependencies": {
-    "concurrently": "^6.3.0",
+    "concurrently": "^6.4.0",
     "nodemon": "^2.0.15"
   }
 }

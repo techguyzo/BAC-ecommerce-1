@@ -15,7 +15,6 @@
     grid-template-columns: repeat(4, 1fr);
   }
   
-  /*react*/
   @media (max-width: 1232px) {
     .homescreen__products {
       grid-template-columns: repeat(3, auto);
